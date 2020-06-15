@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/MobileCrawler/bin/Debug/netcoreapp3.1/MobileCrawler.dll",
+            "program": "${workspaceFolder}/DesktopCrawler/bin/Debug/netcoreapp3.1/DesktopCrawler.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/MobileCrawler",
+            "cwd": "${workspaceFolder}/DesktopCrawler",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

@@ -23,6 +23,7 @@ public class BingPage
         ClickSignIn();
         EnterEmail(username);
         EnterPassword(password);
+        _driver.Navigate().GoToUrl("https://www.bing.com/search?q=hello&cvid=3087b4535abe40b2b41d13f4d462c7fd&FORM=ANSPA1&PC=U531");
     }
 
     public void ClickSignIn()
@@ -64,5 +65,10 @@ public class BingPage
     {
         IAlert alert = ExpectedConditions.AlertIsPresent().Invoke(_driver);
         return (alert != null);
+    }
+
+    public string GetPoints() 
+    {
+        return "";
     }
 }
