@@ -1,0 +1,9 @@
+C:\Users\Benwi\Desktop\Repos\Automation\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\Benwi\Desktop\Repos\Automation\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Benwi\Desktop\Repos\Automation\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Benwi\Desktop\Repos\Automation\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\Users\Benwi\Desktop\Repos\Automation\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Benwi\Desktop\Repos\Automation\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Benwi\Desktop\Repos\Automation\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\Benwi\Desktop\Repos\Automation\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\Benwi\Desktop\Repos\Automation\Common\obj\Debug\netstandard2.0\Common.pdb
