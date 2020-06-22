@@ -5388,11 +5388,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\MobileCrawler\\MobileCrawler.csproj",
+      "projectUniqueName": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\MobileCrawler\\MobileCrawler.csproj",
       "projectName": "MobileCrawler",
-      "projectPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\MobileCrawler\\MobileCrawler.csproj",
+      "projectPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\MobileCrawler\\MobileCrawler.csproj",
       "packagesPath": "C:\\Users\\Benwi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\MobileCrawler\\obj\\",
+      "outputPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\MobileCrawler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Benwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5408,8 +5408,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj"
+            "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj": {
+              "projectPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj"
             }
           }
         }

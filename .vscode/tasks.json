@@ -2,6 +2,18 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Build Daily Set",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/DailySet/DailySet.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "Build Desktop Crawler",
             "command": "dotnet",
             "type": "process",
@@ -27,7 +39,7 @@
         },
         {
             "label": "build",
-            "dependsOn": ["Build Desktop Crawler", "Build Mobile Crawler"]
+            "dependsOn": ["Build Daily Set"]
         },
         {
             "label": "publish",

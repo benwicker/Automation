@@ -8,18 +8,18 @@ namespace DesktopCrawler
     {
         static void Main(string[] args)
         {
+            var username = "";
+            var password = "";
+            var points = "";
+
+            if (args.Length > 0)
+            {
+                username = args[0];
+                password = args[1];
+            }
+
             try
             {
-                var username = "";
-                var password = "";
-                var points = "";
-
-                if (args.Length > 0)
-                {
-                    username = args[0];
-                    password = args[1];
-                }
-
                 using (var driver = Driver.GetDesktopDriver())
                 {
                     var bingPage = new BingPage(driver);
@@ -36,11 +36,11 @@ namespace DesktopCrawler
                     points = bingPage.GetPoints();
                 }
 
-                Logger.LogResult(true, points);
+                Logger.LogResult($"{username} Desktop", true, points);
             }
             catch (Exception e)
             {
-                Logger.LogResult(false, e.Message);
+                Logger.LogResult($"{username} Desktop", false, e.Message);
             }
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj": {}
+    "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj": {
+    "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj",
+        "projectUniqueName": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj",
+        "projectPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Benwi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\obj\\",
+        "outputPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Benwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj": {
+    "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj",
+        "projectUniqueName": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj",
         "projectName": "DesktopCrawler",
-        "projectPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj",
+        "projectPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\DesktopCrawler.csproj",
         "packagesPath": "C:\\Users\\Benwi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\obj\\",
+        "outputPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\DesktopCrawler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Benwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,8 +106,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj"
+              "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj": {
+                "projectPath": "c:\\Users\\Benwi\\Desktop\\Repos\\Automation\\Common\\Common.csproj"
               }
             }
           }

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Threading;
 using Common;
 
 namespace MobileCrawler
@@ -9,19 +7,19 @@ namespace MobileCrawler
     {
         static void Main(string[] args)
         {
+            var username = "";
+            var password = "";
+            var points = "";
+
+            // parse args
+            if (args.Length > 0)
+            {
+                username = args[0];
+                password = args[1];
+            }
+
             try
             {
-                var username = "";
-                var password = "";
-                var points = "";
-
-                // parse args
-                if (args.Length > 0)
-                {
-                    username = args[0];
-                    password = args[1];
-                }
-
                 using (var driver = Driver.GetMobileDriver())
                 {
                     var searches = Driver.GetSearches();
@@ -37,11 +35,11 @@ namespace MobileCrawler
                     points = bingPage.GetPoints();
                 }
 
-                Logger.LogResult(true, points);
+                Logger.LogResult($"{username} Mobile", true, points);
             }
             catch (Exception e)
             {
-                Logger.LogResult(false, e.Message);
+                Logger.LogResult($"{username} Mobile", false, e.Message);
             }
 
         }

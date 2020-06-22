@@ -4,6 +4,12 @@ using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;
 
 public class BingPage
 {
+    // URLS
+    private string RewardsDashboardUrl = "https://account.microsoft.com/rewards/?refd=www.bing.com";
+    private string InitSearch = "https://www.bing.com/search?q=hello&cvid=3087b4535abe40b2b41d13f4d462c7fd&FORM=ANSPA1&PC=U531";
+    private string InitSignIn = "https://www.microsoft.com/en-us/rewards?rtc=1";
+
+
     public IWebDriver _driver { get; set; }
 
     public By SignInButton = By.Id("mectrl_headerPicture");
@@ -11,6 +17,8 @@ public class BingPage
     public By NextButton = By.Id("idSIButton9");
     public By PasswordField = By.Name("passwd");
     public By SearchField = By.Name("q");
+    public By AvailablePoints = By.XPath("(//mee-rewards-counter-animation/span)[1]");
+    public By AvailablePointsMobile = By.XPath("//div[@class='availablePoints']/span");
 
     public BingPage(IWebDriver driver)
     {
@@ -19,11 +27,11 @@ public class BingPage
 
     public void PerformSignIn(string username, string password)
     {
-        _driver.Navigate().GoToUrl("https://www.microsoft.com/en-us/rewards?rtc=1");
+        _driver.Navigate().GoToUrl(InitSignIn);
         ClickSignIn();
         EnterEmail(username);
         EnterPassword(password);
-        _driver.Navigate().GoToUrl("https://www.bing.com/search?q=hello&cvid=3087b4535abe40b2b41d13f4d462c7fd&FORM=ANSPA1&PC=U531");
+        _driver.Navigate().GoToUrl(InitSearch);
     }
 
     public void ClickSignIn()
@@ -69,6 +77,14 @@ public class BingPage
 
     public string GetPoints() 
     {
-        return "";
+        _driver.Navigate().GoToUrl(RewardsDashboardUrl);
+        Thread.Sleep(5000);
+        return _driver.FindElement(AvailablePoints).Text;
+    }
+
+    public string GetPointsMobile() {
+        _driver.Navigate().GoToUrl(RewardsDashboardUrl);
+        Thread.Sleep(5000);
+        return _driver.FindElement(AvailablePointsMobile).Text;
     }
 }
